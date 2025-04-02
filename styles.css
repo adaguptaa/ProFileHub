@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+h2 {
+    color: #000000;
+}
+form {
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+button {
+    background:rgb(135, 135, 255);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background: rgb(95, 95, 253);
+}
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 10px;
+}
+nav {
+    background-color:rgb(135, 135, 255);
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.brand {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px; /* Spacing between links */
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-links li a:hover {
+    background-color: rgb(84, 84, 252);
+    color:rgb(252, 252, 252);
+}
+/* Success & Error Messages */
+.message {
+    font-size: 24px;  /* Make text bigger */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;  /* Move it lower */
+    padding: 20px;
+    background: rgb(135, 135, 255);  /* Light green background */
+    border: 2px solid rgb(91, 91, 255);
+    border-radius: 10px;
+    display: inline-block;
+}
+.message a {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(91, 91, 255);
+    text-decoration: none;
+}
+.message a:hover {
+    text-decoration: underline;
+}
+.error-message {
+    background: rgb(135, 135, 255);
+    border-color: rgb(75, 75, 255);
+}
